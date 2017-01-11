@@ -14,6 +14,9 @@ gem 'rails_12factor', group: :production
 # Use bootstrp for improving look and feel
 gem 'bootstrap-sass'
 
+# Add Stripe capabilities
+gem 'stripe'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
