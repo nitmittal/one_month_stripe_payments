@@ -14,8 +14,11 @@ gem 'rails_12factor', group: :production
 # Use bootstrp for improving look and feel
 gem 'bootstrap-sass'
 
-# Add Stripe capabilities
+# Use Stripe for payments
 gem 'stripe'
+
+# Use Figaro for secure keys
+gem 'figaro'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
